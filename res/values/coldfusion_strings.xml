@@ -44,6 +44,9 @@
     <string name="build_date">ColdFusion Release date</string>
     <string name="build_date_default">2015-01-01-0000</string>
 
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">No need, development settings are enabled by default.</string>
+
     <!-- Cold Fusion Menu -->
     <string name="coldfusion_menu_configuration">ColdFusion settings</string>
     <string name="status_bar_screen_title">Status bar</string>
