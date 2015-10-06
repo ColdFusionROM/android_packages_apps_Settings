@@ -21,7 +21,7 @@
             android:title="@string/about_coldfusion"
             android:summary="@string/coldfusion_about_summary" />
 
-        <!-- Device status - launches activity -->
+         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"
                 android:summary="@string/device_status_summary">
@@ -29,19 +29,6 @@
                     android:targetPackage="com.android.settings"
                     android:targetClass="com.android.settings.deviceinfo.Status" />
         </PreferenceScreen>
-
-        <!-- Manual -->
-        <PreferenceScreen
-                android:key="manual"
-                android:title="@string/manual">
-            <intent android:action="android.settings.SHOW_MANUAL" />
-        </PreferenceScreen>
-
-        <!-- Legal Information -->
-        <PreferenceScreen
-                android:key="container"
-                android:title="@string/legal_information"
-                android:fragment="com.android.settings.LegalSettings" />
 
         <PreferenceScreen
                 android:key="regulatory_info"
