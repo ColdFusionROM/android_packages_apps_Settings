@@ -72,6 +72,19 @@
 
     </dashboard-category>
 
+    <!-- CONFIGURATION -->
+    <dashboard-category
+            android:id="@+id/coldfusion_section"
+            android:title="@string/header_category_coldfusion" >
+
+        <!-- ROM SETTINGS -->
+        <dashboard-tile
+                android:id="@+id/coldfusion_settings"
+                android:title="@string/coldfusion_settings_title"
+                android:fragment="com.android.settings.coldfusion.ColdfusionSettings" 
+        		android:icon="@drawable/ic_settings_coldfusion" />
+    </dashboard-category>
+
     <!-- DEVICE -->
     <dashboard-category
             android:id="@+id/device_section"
