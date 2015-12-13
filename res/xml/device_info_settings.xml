@@ -17,8 +17,8 @@
         <!-- Coldfusion about -->
         <PreferenceScreen
             android:key="about_coldfusion"
-            android:fragment="com.android.settings.about.coldfusion"
-            android:title="@string/about_coldfusion"
+            android:fragment="com.android.settings.coldfusion.about"
+            android:title="@string/coldfusion_about"
             android:summary="@string/coldfusion_about_summary" />
 
          <!-- Device status - launches activity -->
@@ -77,11 +77,17 @@
                 android:title="@string/kernel_version"
                 android:summary="@string/device_info_default"/>
 
-        <!-- ColdFusion build date -->
-        <Preference android:key="coldfusion_date"
+        <!-- Detailed build version -->
+        <Preference android:key="build_number"
                 style="?android:preferenceInformationStyle"
-                android:title="@string/coldfusion_date"
-                android:summary="@string/coldfusion_date_default" />
+                android:title="@string/build_number"
+                android:summary="@string/device_info_default"/>
+
+        <!-- ColdFusion build date -->
+        <Preference android:key="build_date"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/build_date"
+                android:summary="@string/build_date_default" />
 
         <!-- SELinux status information -->
         <Preference android:key="selinux_status"

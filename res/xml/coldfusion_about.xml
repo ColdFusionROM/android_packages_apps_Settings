@@ -37,14 +37,6 @@
                 android:data="https://twitter.com/TheGooThan" />
         </Preference>  
 
-       <Preference
-            android:icon="@drawable/gplus"
-            android:title="@string/joetech_googleplus">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://plus.google.com/u/0/+JosephOdney" />
-        </Preference>
-
         <Preference
             android:icon="@drawable/pushbullet"
             android:title="@string/coldfusion_updates">

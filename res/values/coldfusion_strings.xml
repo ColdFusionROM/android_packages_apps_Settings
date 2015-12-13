@@ -20,7 +20,7 @@
 
       <!-- Device Info Settings -->
     <!-- About Cold Fusion -->
-    <string name="about_coldfusion">Cold Fusion ROM info</string>
+    <string name="coldfusion_about">Cold Fusion ROM info</string>
     <string name="coldfusion_about_summary">Cold Fusion about, rom info, developer and contributors</string>
     <string name="coldfusion_useful">Useful links</string>
     <string name="coldfusion_updates">Pushbullet update notifications</string>
@@ -28,7 +28,6 @@
     <string name="joetech">Joe-Tech</string>
     <string name="joetech_dev">Main Cold Fusion developer</string>
     <string name="joetech_twit">Joe-Tech\'s Twitter</string>
-    <string name="joetech_googleplus">Joe-Tech\'s G+ profile</string>
     <string name="coldfusion_googleplus">Cold Fusion G+ community</string>
     <string name="donate">Donate to support development</string>
     <string name="contribute">Contributors</string>
@@ -42,8 +41,8 @@
     <string name="zancerne_wall">Cold Fusion disigner wallpaper</string>
 
     <!-- About phone screen, build date of ROM -->
-    <string name="coldfusion_date">ColdFusion Release date</string>
-    <string name="coldfusion_date_default">2015-01-01-0000</string>
+    <string name="build_date">ColdFusion Release date</string>
+    <string name="build_date_default">2015-01-01-0000</string>
 
     <!-- Cold Fusion Menu -->
     <string name="coldfusion_menu_configuration">ColdFusion settings</string>
